@@ -27,6 +27,7 @@ public class Main {
         scanner.close();
 
     }
+
     public static char getValidLetterInput(Set<Character> guessedLetters, Scanner scanner){
         while (true){
             System.out.println();

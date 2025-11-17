@@ -9,6 +9,7 @@ classDiagram
     }
     class WordBank {
         -wordList: ArrayList~String~
+        -populateList(): void$
         +generateRandomWord(): String$
     }
     class Word{
